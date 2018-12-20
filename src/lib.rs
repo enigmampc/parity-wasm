@@ -13,7 +13,7 @@ extern crate alloc;
 
 pub mod elements;
 pub mod builder;
-mod io;
+pub mod io;
 
 pub use elements::{
 	Error as SerializationError,
